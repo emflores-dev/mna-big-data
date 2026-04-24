@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  pyspark:
+    image: jupyter/pyspark-notebook:latest
+    container_name: pyspark-learn
+    ports:
+      - "8888:8888"   # JupyterLab UI
+      - "4040:4040"   # Spark UI (active while a session runs)
+    volumes:
+      - ./notebooks:/home/jovyan/notebooks
+      - ./scripts:/home/jovyan/scripts
+      - ./data:/home/jovyan/data
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
