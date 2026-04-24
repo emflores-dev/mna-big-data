@@ -44,11 +44,14 @@ While a PySpark session is active, visit:
 http://localhost:4040
 
 ## Project structure
+
+```text
 mna-big-data/
 ├── docker-compose.yml   # Environment definition
 ├── notebooks/           # Jupyter notebooks (.ipynb)
 ├── scripts/             # PySpark scripts (.py)
 └── data/                # Input/output data files
+```
 
 ## Running a script
 
