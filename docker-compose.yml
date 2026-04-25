@@ -13,3 +13,4 @@ services:
       - ./data:/home/jovyan/data
     environment:
       - JUPYTER_ENABLE_LAB=yes
+      - PIP_PACKAGES=delta-spark plotly great-expectations
