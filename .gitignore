@@ -1,0 +1,97 @@
+# ─── macOS ───────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# ─── Python ──────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+*.so
+.env
+.venv
+env/
+venv/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ─── Jupyter ─────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+*.ipynb_checkpoints
+
+# ─── Spark / PySpark ─────────────────────────────────
+spark-warehouse/
+metastore_db/
+derby.log
+.spark-history/
+spark-events/
+*.crc
+_temporary/
+_SUCCESS
+
+# ─── Data files (keep structure, ignore content) ─────
+data/*.csv
+data/*.json
+data/*.parquet
+data/*.orc
+data/*.avro
+data/*.txt
+data/*.zip
+data/*.gz
+data/*.tar
+data/*.tgz
+
+# ─── Logs ────────────────────────────────────────────
+logs/
+*.log
+log/
+
+# ─── Docker ──────────────────────────────────────────
+.docker/
+
+# ─── IDEs & editors ──────────────────────────────────
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.iml
+.project
+.classpath
+.settings/
+
+# ─── Java (Spark runs on JVM) ────────────────────────
+*.class
+*.jar
+*.war
+*.ear
+target/
+hs_err_pid*
