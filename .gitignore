@@ -95,3 +95,4 @@ log/
 *.ear
 target/
 hs_err_pid*
+/data
